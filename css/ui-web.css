@@ -1,0 +1,138 @@
+.btn-buy {
+    cursor: pointer;
+    margin-top: 2rem;
+    font-weight: bold;
+    color: white;
+    border-radius: 2rem;
+    width: 350px;
+    height: 42.66px;
+    border: none;
+    background-color:  #ffcd21 ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .5s ease;
+  }
+
+  .btn-buy:hover {
+    box-shadow: 0 0 1rem #ffcd21;
+  }
+  
+  .btn-buy .span-mother {
+    display: flex;
+    overflow: hidden;
+  }
+  
+  .btn-buy:hover .span-mother {
+    position: absolute;
+  }
+  
+  .btn-buy:hover .span-mother span {
+    transform: translateY(1.2em);
+  }
+  
+  but.btn-buyton .span-mother span:nth-child(1) {
+    transition: .2s;
+  }
+  
+  .btn-buy .span-mother span:nth-child(2) {
+    transition: .3s;
+  }
+  
+  .btn-buy .span-mother span:nth-child(3) {
+    transition: .4s;
+  }
+  
+  .btn-buy .span-mother span:nth-child(4) {
+    transition: .5s;
+  }
+  
+  .btn-buy .span-mother span:nth-child(5) {
+    transition: .6s;
+  }
+  
+  .btn-buy .span-mother span:nth-child(6) {
+    transition: .7s;
+  }
+  
+  .btn-buy .span-mother2 {
+    display: flex;
+    position: absolute;
+    overflow: hidden;
+  }
+  
+  .btn-buy .span-mother2 span {
+    transform: translateY(-1.2em);
+  }
+  
+  .btn-buy:hover .span-mother2 span {
+    transform: translateY(0);
+  }
+  
+  .btn-buy .span-mother2 span {
+    transition: .2s;
+  }
+  
+  .btn-buy .span-mother2 span:nth-child(2) {
+    transition: .3s;
+  }
+  
+  .btn-buy .span-mother2 span:nth-child(3) {
+    transition: .4s;
+  }
+  
+  .btn-buy .span-mother2 span:nth-child(4) {
+    transition: .5s;
+  }
+  
+  .btn-buy .span-mother2 span:nth-child(5) {
+    transition: .6s;
+  }
+  
+  .btn-buy .span-mother2 span:nth-child(6) {
+    transition: .7s;
+  }
+
+
+  
+  .btn-next{
+    margin-left: 85rem;
+    margin-top: 1rem;
+    font-size: 18px;
+    color: var(--pan-color);
+    font-family: inherit;
+    font-weight: 800;
+    cursor: pointer;
+    position: relative;
+    border: none;
+    background: none;
+    text-transform: uppercase;
+    transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+    transition-duration: 400ms;
+    transition-property: color;
+  }
+  
+  .btn-next:focus,
+  .btn-next:hover {
+    color: var(--section-color);
+  }
+  
+  .btn-next:focus:after,
+  .btn-next:hover:after {
+    width: 100%;
+    left: 0%;
+  }
+  
+  .btn-next:after {
+    content: "";
+    pointer-events: none;
+    bottom: -2px;
+    left: 50%;
+    position: absolute;
+    width: 0%;
+    height: 2px;
+    background-color: #000;
+    transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+    transition-duration: 400ms;
+    transition-property: width, left;
+  }
